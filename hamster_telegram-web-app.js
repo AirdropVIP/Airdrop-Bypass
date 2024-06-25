@@ -306,7 +306,7 @@
     colorScheme = 'light';
   var webAppVersion = '6.0';
   var webAppPlatform = 'unknown';
-
+  initParams.tgWebAppPlatform= "android";
   if (initParams.tgWebAppData && initParams.tgWebAppData.length) {
     webAppInitData = initParams.tgWebAppData;
     webAppInitDataUnsafe = Utils.urlParseQueryString(webAppInitData);
